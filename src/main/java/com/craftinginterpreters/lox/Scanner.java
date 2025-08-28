@@ -165,7 +165,6 @@ class Scanner {
 	private boolean isAlphaNumeric(char c) {
 		return isAlpha(c) || isDigit(c);
 	}
-	}
 
 	private boolean isDigit(char c) {
 		return c >= '0' && c <= '9';
